@@ -122,7 +122,7 @@ model.compile(optimizer=sgd, loss='categorical_crossentropy', metrics=['accuracy
 test_datagen_faces = ImageDataGenerator(rescale=1./255)
 
 # Specify the path to the faces dataset
-test_data_dir_faces = 'fer2013_train_set'
+test_data_dir_faces = 'faces_test_set'
 
 # Set the input image size
 input_size = (224, 224)
